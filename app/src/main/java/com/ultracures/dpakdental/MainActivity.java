@@ -1,4 +1,4 @@
-package com.example.dpakdental;
+package com.ultracures.dpakdental;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,6 +15,8 @@ import android.widget.Button;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 
+import java.util.Objects;
+
 public class MainActivity extends AppCompatActivity {
 
     RelativeLayout internetLayout, noInternetLayout;
@@ -27,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Objects.requireNonNull(getSupportActionBar()).hide();
 
         internetLayout = findViewById(R.id.InternetLayout);
         noInternetLayout = findViewById(R.id.noInternetLayout);

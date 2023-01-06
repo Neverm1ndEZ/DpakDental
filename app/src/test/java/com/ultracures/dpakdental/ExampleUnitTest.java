@@ -1,4 +1,4 @@
-package com.example.dpakdental;
+package com.ultracures.dpakdental;
 
 import org.junit.Test;
 

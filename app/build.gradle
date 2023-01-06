@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.dpakdental'
+    namespace 'com.ultracures.dpakdental'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.example.dpakdental"
+        applicationId "com.ultracures.dpakdental"
         minSdk 21
         targetSdk 32
         versionCode 1
